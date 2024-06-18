@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #40c4cc; /* Background color from the image */
+    background-image: url('../hqst.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:initial;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 3em; /* Increased font size for emphasis */
+    font-weight: 700;
+    color: #000; /* Black color for the title */
+    background: linear-gradient(90deg, #007BFF, #00C853); /* Gradient color */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #000; /* Black color for the button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #333;
+}
+
+.results-count {
+    font-weight: 500;
+    color: #555;
+}
+
+.divider {
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+.result {
+    padding: 10px 0;
+}
+
+.result-title {
+    font-weight: 700;
+    color: #007BFF;
+}
+
+.result-location {
+    font-weight: 500;
+    color: #555;
+}
+
+.result-content {
+    color: #333;
+}
+
+mark {
+    background-color: yellow;
+}
